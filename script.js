@@ -58,7 +58,7 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 
 const form=document.querySelector("form");
 form.addEventListener("submit",()=>{
-    alert("Your massage has been sent successfully!!!");
+    alert("Your message has been sent successfully!!!");
 });
 
 
@@ -92,4 +92,5 @@ scrollBtn.onclick=function(){
         behavior: "smooth"
     });
 };
+
 
